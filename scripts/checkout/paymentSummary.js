@@ -72,7 +72,7 @@ export function renderPaymentSummary() {
   document.querySelector('.js-place-order')
     .addEventListener('click', async () => {
       try {
-        const response = await fetch('https://supersimplebackend.dev/orders', {
+        const response = await fetch('https://narendrareddy.in/orders', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json'
